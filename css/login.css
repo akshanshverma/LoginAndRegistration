@@ -1,0 +1,68 @@
+
+body {font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url("paper.gif") */
+    background-color: rgb(58, 58, 58);
+    padding-left: 30%; 
+    padding-right: 30%;
+    padding-top: 5%;
+}
+form {
+    border: 3px solid #f1f1f1;  
+    background-color: #bebebe;
+    padding-left: 10%; 
+    padding-right: 10%;  
+    padding-bottom: 6%;   
+    box-shadow: 0px 0px 50px grey;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(117, 117, 117);
+}
+
+label {
+    float:left;
+    width:150px;
+}
+input[type=text], input[type=email],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2% 0%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+.erMsg{
+    color: red;
+    text-align: right;    
+}
+
+button {
+    background-color: #4CAF50;
+    box-shadow: 0px 0px 10px  rgb(58, 58, 58);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+div#msg{
+    padding-top: 15px;
+    color:red;
+    text-align: center;
+}
+span.psw {
+    float: right;  
+}
+span.error{
+    text-align: center;
+    color:red;
+}
+
+
